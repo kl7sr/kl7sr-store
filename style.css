@@ -1,20 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Nunito:wght@400;600;700&display=swap');
 
-:root {
-    --bg-color: #F4E4E4;
-    /* Soft Pink from image */
-    --card-bg: rgba(255, 255, 255, 0.6);
-    /* More transparent for soft look */
-    --primary: #4A2C2A;
-    /* Dark Brown Text/Brand */
-    --primary-hover: #6D4C41;
-    --accent: #E88D37;
-    /* Cookie/Bag Orange */
-    --text-dark: #4A2C2A;
-    --text-light: #6D4C41;
-    --shadow: 0 10px 30px rgba(74, 44, 42, 0.1);
-    --glass-border: 1px solid rgba(255, 255, 255, 0.4);
-    --radius: 20px;
+--bg-color: #F4E4E4;
+--card-bg: rgba(255, 255, 255, 0.6);
+--primary: #4A2C2A;
+--primary-hover: #6D4C41;
+--accent: #E88D37;
+--text-dark: #4A2C2A;
+--text-light: #6D4C41;
+--shadow: 0 10px 30px rgba(74, 44, 42, 0.1);
+--glass-border: 1px solid rgba(255, 255, 255, 0.4);
+--radius: 20px;
 }
 
 * {
@@ -31,7 +26,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header & Nav */
+
 .main-header {
     background-color: var(--card-bg);
     backdrop-filter: blur(10px);
@@ -77,13 +72,12 @@ body {
     color: var(--accent);
 }
 
-/* Container */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem 4rem;
     min-height: 80vh;
-    /* Ensure footer sits at bottom */
 }
 
 .hero-spacer {
@@ -121,7 +115,7 @@ body {
     }
 }
 
-/* Info Section (Bottom) */
+
 .info-section {
     margin-top: 5rem;
     display: flex;
@@ -178,7 +172,7 @@ body {
     font-size: 0.95rem;
 }
 
-/* Social Links */
+
 .social-links {
     margin-bottom: 2rem;
 }
@@ -204,14 +198,14 @@ body {
 }
 
 
-/* Grid */
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2.5rem;
 }
 
-/* Product Card */
+
 .product-card {
     background: var(--card-bg);
     border: var(--glass-border);
@@ -284,7 +278,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Detail Page */
+
 .detail-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -371,7 +365,7 @@ body {
     opacity: 0.8;
 }
 
-/* Mobile */
+
 @media (max-width: 768px) {
     .detail-container {
         grid-template-columns: 1fr;
@@ -384,7 +378,7 @@ body {
     }
 }
 
-/* Footer */
+
 .site-footer {
     background-color: var(--primary);
     color: #F4E4E4;
