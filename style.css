@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Nunito:wght@400;600;700&display=swap');
 
---bg-color: #F4E4E4;
---card-bg: rgba(255, 255, 255, 0.6);
---primary: #4A2C2A;
---primary-hover: #6D4C41;
---accent: #E88D37;
---text-dark: #4A2C2A;
---text-light: #6D4C41;
---shadow: 0 10px 30px rgba(74, 44, 42, 0.1);
---glass-border: 1px solid rgba(255, 255, 255, 0.4);
---radius: 20px;
+:root {
+    --bg-color: #F4E4E4;
+    --card-bg: rgba(255, 255, 255, 0.6);
+    --primary: #4A2C2A;
+    --primary-hover: #6D4C41;
+    --accent: #E88D37;
+    --text-dark: #4A2C2A;
+    --text-light: #6D4C41;
+    --shadow: 0 10px 30px rgba(74, 44, 42, 0.1);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.4);
+    --radius: 20px;
 }
 
 * {
